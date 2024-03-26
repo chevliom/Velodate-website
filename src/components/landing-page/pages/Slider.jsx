@@ -3,7 +3,7 @@ const Slider = () => {
     <>
       <div className="flex flex-col items-center justify-center w-full my-8">
         <div className="flex flex-col items-center justify-center">
-          <p className="text-[#FFFFFF] font-bold text-5xl">
+          <p className="text-[#FFFFFF] font-bold text-5xl text-center leading-[3.7rem] mb-2">
             "Beyond the Swipe"
           </p>
           <p className="text-[#FFFFFF] font-normal text-lg">

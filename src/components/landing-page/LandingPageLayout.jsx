@@ -5,10 +5,24 @@ import { useEffect, useState } from "react";
 
 const LandingPageLayout = () => {
   const [isVisible, setIsVisible] = useState(true);
+  const [isScrolledToTop, setIsScrolledToTop] = useState(true);
 
   useEffect(() => {
     let prevScrollPos = window.pageYOffset;
+    const handleScrolls = () => {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
+      // Check if user scrolled to the top
+      setIsScrolledToTop(scrollTop === 0);
+    };
+
+    // Add scroll event listener when component mounts
+    window.addEventListener('scroll', handleScrolls);
+
+    // Clean up event listener when component unmounts
+    return () => {
+      window.removeEventListener('scroll', handleScrolls);
+    };
     const handleScroll = () => {
       const currentScrollPos = window.pageYOffset;
       if (prevScrollPos > currentScrollPos) {
@@ -29,11 +43,7 @@ const LandingPageLayout = () => {
     <>
       <section className="flex flex-col min-h-screen w-full bg-black">
         <div
-          className={`${
-            isVisible
-              ? "absolute opacity-100 z-20 w-full"
-              : "w-full sticky top-0 bg-[#FFFFFF1A] opacity-100 z-50"
-          }`}
+          className={`w-full fixed top-0 ${isScrolledToTop ? 'bg-transparent' : 'bg-[#191919]'} opacity-100 z-50`}
         >
           <NavBar />
         </div>
