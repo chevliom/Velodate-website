@@ -1,8 +1,37 @@
+import { useEffect, useState } from "react";
+import Safety from "./Safety";
+import Slider from "./Slider";
+
 const Home = () => {
+  const [isVisible, setIsVisible] = useState(true);
+
+  useEffect(() => {
+    let prevScrollPos = window.pageYOffset;
+
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+      if (prevScrollPos > currentScrollPos) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+      prevScrollPos = currentScrollPos;
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <>
       <div className="flex flex-col w-full">
-        <div className="relative w-full">
+        <div
+          className={`relative w-full transition-opacity duration-500 ${
+            isVisible ? "opacity-100" : "opacity-0"
+          }`}
+        >
           <div className="absolute top-5 flex gap-2 flex-col items-center justify-center w-full">
             <div className="mt-2 flex gap-2 flex-col items-center">
               <p className="text-[#FFFFFF] font-bold text-5xl">
@@ -13,8 +42,20 @@ const Home = () => {
               </p>
             </div>
 
-            <div className="bg-[#C5C5C5] h-[600px] w-[400px] opacity-75">
-              <button>submit</button>
+            <div className="flex items-end justify-center bg-[#FFFFFF33] w-3/4 sm:w-2/5 md:w-4/12 lg:w-3/12 h-[600px] opacity-[80%] rounded-md">
+              <div className="flex items-center justify-between w-11/12 px-1 sm:px-4 py-4 my-4 rounded-md bg-[#00000066]">
+                <button className="flex flex-col text-[#FFFFFF] text-2xl font-semibold">
+                  Real-Time <span className="text-[#D19D00]">Matchmaking</span>
+                </button>
+
+                <button className="bg-[#D8A409] hover:bg-[#d8a409f1] p-4 rounded-md">
+                  <img
+                    src="/assets/footer/graterThanArrow.svg"
+                    alt="graterThanArrow"
+                    className=""
+                  />
+                </button>
+              </div>
             </div>
           </div>
 
@@ -25,9 +66,12 @@ const Home = () => {
           />
         </div>
 
-        <div className="flex flex-col text-white">
-          <h1 className="">"Beyond the Swipe" </h1>
-          <p>The connection you've been waiting for</p>
+        <div className="flex w-full">
+          <Slider />
+        </div>
+
+        <div className="flex w-full">
+          <Safety />
         </div>
       </div>
     </>
