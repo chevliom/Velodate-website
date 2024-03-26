@@ -6,8 +6,8 @@ const Home = () => {
   return (
     <>
       <div className="flex flex-col w-full">
-        <div className={`relative w-full hidden lg:block`}>
-          <div className="absolute top-3  flex gap-2 flex-col items-center justify-center w-full">
+        <div className={`relative w-full hidden lg:block liner-gradiant`}>
+          <div className="absolute top-12  flex gap-2 flex-col items-center justify-center w-full">
             <div className="mt-2 flex gap-2 flex-col items-center">
               <p className="text-[#FFFFFF] font-bold text-5xl">
                 "Beyond the Swipe"
@@ -17,7 +17,10 @@ const Home = () => {
               </p>
             </div>
 
-            <div className="flex items-end justify-center bg-[#FFFFFF33] w-3/4 sm:w-2/5 md:w-4/12 lg:w-3/12 opacity-[80%] rounded-md " style={{ height:"calc(100vh - 165px)" }}>
+            <div
+              className="flex items-end justify-center bg-[#FFFFFF33] w-3/4 sm:w-2/5 md:w-4/12 lg:w-3/12 opacity-[80%] rounded-md "
+              style={{ height: "calc(100vh - 165px)" }}
+            >
               <div className="flex items-center justify-between w-11/12 px-1 sm:px-4 py-4 my-4 rounded-md bg-[#00000066]">
                 <button className="flex flex-col text-[#FFFFFF] text-2xl font-semibold">
                   Real-Time <span className="text-[#D19D00]">Matchmaking</span>
