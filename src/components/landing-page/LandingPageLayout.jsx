@@ -42,7 +42,9 @@ const LandingPageLayout = () => {
           <Outlet />
         </div>
 
-        <Footer />
+        <div className="flex-1">
+          <Footer />
+        </div>
       </section>
     </>
   );

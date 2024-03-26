@@ -1,38 +1,13 @@
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import Safety from "./Safety";
 import Slider from "./Slider";
 
 const Home = () => {
-  const [isVisible, setIsVisible] = useState(true);
-
-  useEffect(() => {
-    let prevScrollPos = window.pageYOffset;
-
-    const handleScroll = () => {
-      const currentScrollPos = window.pageYOffset;
-      if (prevScrollPos > currentScrollPos) {
-        setIsVisible(true);
-      } else {
-        setIsVisible(false);
-      }
-      prevScrollPos = currentScrollPos;
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
   return (
     <>
       <div className="flex flex-col w-full">
-        <div
-          className={`relative w-full transition-opacity duration-500 ${
-            isVisible ? "opacity-100" : "opacity-0"
-          }`}
-        >
-          <div className="absolute top-5 flex gap-2 flex-col items-center justify-center w-full">
+        <div className={`relative w-full hidden md:block`}>
+          <div className="absolute top-16 flex gap-2 flex-col items-center justify-center w-full">
             <div className="mt-2 flex gap-2 flex-col items-center">
               <p className="text-[#FFFFFF] font-bold text-5xl">
                 "Beyond the Swipe"
@@ -60,7 +35,7 @@ const Home = () => {
           </div>
 
           <img
-            src="/assets/home/girlImg.png"
+            src="/assets/home/bgImage.png"
             alt="girlImg"
             className="w-full object-cover h-[100vh]"
           />

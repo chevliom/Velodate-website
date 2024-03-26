@@ -2,11 +2,13 @@ const Footer = () => {
   return (
     <>
       <div className="flex gap-4 flex-col items-center">
-        <div className="flex gap-4 flex-col items-center bg-[#D8A409] w-full py-2">
-          <h1 className="text-[#000000] text-5xl font-semibold text-center">
+        <div className="flex gap-8 flex-col items-center bg-[#D8A409] w-full py-8">
+          <h1 className="text-[#000000] text-[48px] font-semibold text-center">
             Ready to get started ?
           </h1>
-          <button className="p-2 bg-[#FFFFFF] rounded-lg">Download App</button>
+          <button className="p-2 bg-[#FFFFFF] rounded-lg font-medium text-[16px]">
+            Download App
+          </button>
         </div>
 
         <div className="flex flex-col gap-8 md:gap-0 md:flex-row items-center justify-between w-full px-8 py-2">

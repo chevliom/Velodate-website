@@ -1,7 +1,9 @@
 const TermsAdnServices = () => {
   return (
     <>
-      <div className="text-white">TermsAdnServices</div>
+      <div className="text-white">
+        <h1>TermsAdnServices</h1>
+      </div>
     </>
   );
 };
