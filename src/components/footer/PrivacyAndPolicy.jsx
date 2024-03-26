@@ -24,20 +24,100 @@ const PrivacyAndPolicy = () => {
       
         {/* Account discription */}
         <div className="lg:mt-[3%]  md:px-0 text-base px-3 pt-5   lg:p-0  ">
-              <h1 className=" p-0 md:p-1 text-3xl px-3 lg:p-0 ">Accounts</h1>
+              <h1 className=" p-0 md:p-1 text-3xl px-3 lg:p-0 ">What Information We Collect</h1>
             <div className="my-3 w-full   ">
               <p className=" tracking-wide flex text-left font-[500]  my-4">When you create an account on our Application, you guarantee that you are 18 
-              years of age or older and that the  information that you provide us is accurate, complete, and current at all times.  </p>
-              <p className=" tracking-wide flex text-left font-[500]  my-4">
-              You are responsible for maintaining the confidentiality of your account, password, 
-              content you upload, including but not  limited to the restriction of access to your computer 
-              and/or account. You agree to accept responsibility for any and all  activities or actions that 
-              occur under your account and/or password, whether your password is 
-              with our Application or a  third party service. You must notify us immediately upon 
-              becoming aware of any breach of security or unauthorized use of your account.</p>
-              <p className=" tracking-wide flex text-left font-[500]  my-4">
-              We reserve the right to terminate your account anytime at our sole discretion. 
-              You can terminate your account by deactivating your account on the Application.</p>
+              We collect any and all information that you enter on this Application. We collect the following information about you:  </p>
+
+              <div className=" overflow-x-auto">
+      <table className="min-w-full bg-black text-white border border-gray-400">
+        <thead className="bg-[#191919]">
+          <tr>
+            <th scope="col" className="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider border-r border-gray-400">
+              Category of information
+            </th>
+            <th scope="col" className="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider">
+              Specific piece of information
+            </th>
+          </tr>
+        </thead>
+        <tbody className="divide-y divide-gray-400">
+          <tr>
+            <td className="px-6 py-4 whitespace-nowrap border-r border-gray-400">
+              <div className="text-sm font-medium">Identifying information</div>
+            </td>
+            <td className="px-6 py-4 whitespace-nowrap">
+              <div className="text-sm">Name</div>
+            </td>
+          </tr>
+          <tr>
+            <td className="px-6 py-4 whitespace-nowrap border-r border-gray-400">
+              <div className="text-sm font-medium">Identifying information</div>
+            </td>
+            <td className="px-6 py-4 whitespace-nowrap">
+              <div className="text-sm">Phone number</div>
+            </td>
+          </tr>
+          <tr>
+            <td className="px-6 py-4 whitespace-nowrap border-r border-gray-400">
+              <div className="text-sm font-medium">Identifying information</div>
+            </td>
+            <td className="px-6 py-4 whitespace-nowrap">
+              <div className="text-sm">Account name</div>
+            </td>
+          </tr>
+          <tr>
+            <td className="px-6 py-4 whitespace-nowrap border-r border-gray-400">
+              <div className="text-sm font-medium">Identifying information</div>
+            </td>
+            <td className="px-6 py-4 whitespace-nowrap">
+              <div className="text-sm">City</div>
+            </td>
+          </tr>
+          <tr>
+            <td className="px-6 py-4 whitespace-nowrap border-r border-gray-400">
+              <div className="text-sm font-medium">Identifying information</div>
+            </td>
+            <td className="px-6 py-4 whitespace-nowrap">
+              <div className="text-sm">Location</div>
+            </td>
+          </tr>
+          <tr>
+            <td className="px-6 py-4 whitespace-nowrap border-r border-gray-400">
+              <div className="text-sm font-medium">Identifying information</div>
+            </td>
+            <td className="px-6 py-4 whitespace-nowrap">
+              <div className="text-sm">Email Address</div>
+            </td>
+          </tr>
+          <tr>
+            <td className="px-6 py-4 whitespace-nowrap border-r border-gray-400">
+              <div className="text-sm font-medium">Characteristics of protected classifications</div>
+            </td>
+            <td className="px-6 py-4 whitespace-nowrap">
+              <div className="text-sm">Age</div>
+            </td>
+          </tr><tr>
+            <td className="px-6 py-4 whitespace-nowrap border-r border-gray-400">
+              <div className="text-sm font-medium">Characteristics of protected classifications</div>
+            </td>
+            <td className="px-6 py-4 whitespace-nowrap">
+              <div className="text-sm">Sex</div>
+            </td>
+          </tr>
+          <tr>
+            <td className="px-6 py-4 whitespace-nowrap border-r border-gray-400">
+              <div className="text-sm font-medium">Sensitive Personal information</div>
+            </td>
+            <td className="px-6 py-4 whitespace-nowrap">
+              <div className="text-sm">Geolocation Information</div>
+            </td>
+          </tr>
+          {/* Add more rows for each piece of information */}
+        </tbody>
+      </table>
+    </div>
+
             </div>
         </div>
 
@@ -45,217 +125,215 @@ const PrivacyAndPolicy = () => {
          {/* Account discription */}
 
         <div className="lg:mt-[3%]  md:px-0 text-base px-3  pt-5  lg:p-0 ">
-              <h1 className=" p-0 md:p-1 text-3xl px-3 lg:p-0 ">Comments and Uploading Content</h1>
+              <h1 className=" p-0 md:p-1 text-3xl px-3 lg:p-0 ">How We May Use Your Information</h1>
             <div className="my-3 w-full   text-base px-3 lg:p-0  ">
-              <p className=" tracking-wide flex text-left font-[500]  my-4">When you make a comment or upload any content onto this Application, you agree that such comment or content may 
-               be viewed by other parties.. You are also responsible for ensuring that your content or comment does not violate any  laws, rules or regulations. We reserve the right to remove any content or comment at any time in our sole discretion.  </p>
-              <p className=" tracking-wide flex text-left font-[500]  my-4">
-              The following is a non-exhaustive list of types of content or comments that
-               you are prohibited from posting on our  Application:</p>
+              <p className=" tracking-wide flex text-left font-[500]  my-4">We may use the information that you provide us for the following:</p> 
             </div>
             <ul className="list-disc pl-6 mt-4 font-[500]">
-              <li className="my-2">Content that harasses others;</li>
-              <li className="my-2">Content that is discriminatory or offensive;</li>
-              <li className="my-2">Swearing, name calling and otherwise abusive content;</li>
-              <li className="my-2">Pornographic and sexually explicit content;</li>
-              <li className="my-2">Content displaying, depicting or suggesting violence;</li>
-              <li className="my-2">Content that exploits or abuses children;</li>
-              <li className="my-2">Content encouraging or committing illegal acts;</li>
-              <li className="my-2">Content sharing personal information without consent;</li>
-              <li className="my-2">Content infringing on someone’s rights, including intellectual property rights;</li>
-              <li className="my-2">Content advertising products or services without our permission;</li>
-              <li className="my-2">Content whose purpose is spamming others.</li>
+              <li className="my-2">Analytics;</li>
+              <li className="my-2">Auditing compliance;</li>
+              <li className="my-2">Creating new features;</li>
+              <li className="my-2">Detecting security incidents;</li>
+              <li className="my-2">Enforcing our Terms of Service;</li>
+              <li className="my-2">Marketing and advertising;</li>
+              <li className="my-2">Performing services;</li>
+              <li className="my-2">Protecting against malicious, deceptive, fraudulent or illegal activity, and prosecuting those responsible for such activities;</li>
+              <li className="my-2">Providing customer service;</li>
+              <li className="my-2">Targeted advertising;</li>
+              <li className="my-2">Undertaking activities to verify or maintain the quality or safety of our services or devices;</li>
+              <li className="my-2">Undertaking internal research for technological development and demonstration;</li>
+              <li className="my-2">Verifying customer information.</li>
             </ul>
         </div>
         
          {/* Account discription */}
 
          <div className="lg:mt-[3%]  md:px-0 text-base px-3  pt-5  lg:p-0 "> 
-         <h1 className=" p-0 md:p-1 text-3xl px-3 lg:p-0 ">Prohibited Uses</h1>
+         <h1 className=" p-0 md:p-1 text-3xl px-3 lg:p-0 ">With Whom We Share Your Personal Information</h1>
          <p className=" tracking-wide flex text-left font-[500]  my-4">
-         You agree that you will use this Application in accordance with all applicable laws, rules, regulations and these Terms at  all times.
-          The following is a non-exhaustive list of prohibited uses of this Application. You agree that you will not perform  any of the following prohibited uses:</p>
-          <ol className="list-decimal pl-6 mt-4 font-[500]">
-          <li>Impersonating or attempting to impersonate Velodate, Inc. or its employees, representatives, subsidiaries or divisions;</li>
-          <li>Misrepresenting your identity or affiliation with any person or entity;</li>
-          <li>Sending or attempting to send any advertising or promotional material, including but not limited to spam, junk mail, chain mail or any similar material;</li>
-          <li>Engaging in any conduct that restricts or inhibits any person’s use or enjoyment of the Application, or which, as determined in our sole discretion, may harm us or the users of this Application or expose us or other users to liability;</li>
-          <li>Using the Application in any manner that could disable, overburden, damage or impair the Application or interfere with another party’s use of the Application;</li>
-          <li>Using any robot, spider or other similar automatic technology, process or means to access or use the Application for any purpose, including monitoring or copying any of the material on this Application;</li>
-          <li>Using any manual process or means to monitor or copy any of the material on this Application or for any other unauthorized purpose;</li>
-          <li>Using any device, software, means or routine that interferes with the proper working of the Application, including but not limited to viruses, trojan horses, worms, logic bombs or other such materials;</li>
-          <li>Attempting to gain unauthorized access to, interfering with, damaging or disrupting any parts of the Application, the server(s) on which the Application is stored, or any server, computer or database connected to the Application;</li>
-          <li>Attempting to attack or attacking the Application via a denial-of-service attack or a distributed denial-of-service attack;</li>
-          <li>Otherwise attempting to interfere with the proper working of the Application;</li>
-          <li>Using the Application in any way that violates any applicable federal, state or local laws, rules or regulations.</li>
-        </ol>
+         We do not share your personal information with any third parties.</p>
          </div>
 
          <div className="lg:mt-[3%]  md:px-0 text-base px-3  pt-5  lg:p-0 ">
-              <h1 className=" p-0 md:p-1 text-3xl px-3 lg:p-0 ">Availability, Errors and Inaccuracies</h1>
+              <h1 className=" p-0 md:p-1 text-3xl px-3 lg:p-0 ">How We Protect Your Information</h1>
               <p className=" tracking-wide flex text-left font-[500]  my-4">
-              We assume no liability for the availability, errors or inaccuracies of the information or services provided on this Application. We may experience delays 
-              in updating information on this Application. The information and services found on the Application may contain errors or inaccuracies or may not be complete or current.</p>
-              <div className="lg:mt-[3%] text-3rem     p-5 p-4  rounded-md bg-[#191919]">
-              <h1 className=" p-0 md:p-1 text-3xl px-3 lg:p-0 ">NO WARRANTY ON APPLICATION</h1>
-              <p className=" tracking-wide flex text-left font-[400 !important]   mt-2  text-left">
-              THIS APPLICATION IS PROVIDED “AS IS,” NO WARRANTY, EXPRESS OR IMPLIED (INCLUDING ANY IMPLIED WARRANTY OF MERCHANTABILITY, OF 
-              SATISFACTORY QUALITY OR FITNESS FOR A PARTICULAR PURPOSE OR USE) SHALL APPLY TO THIS APPLICATION, WHETHER ARISING BY LAW, COURSE OF DEALING,
-               COURSE OF PERFORMANCE, USAGE OF TRADE OR OTHERWISE.
-              </p>
-               </div>
-
-               <div className="lg:mt-[3%] text-3rem     p-5 p-4 rounded-md bg-[#191919]">
-              <h1 className=" p-0 md:p-1 text-3xl px-3 lg:p-0 ">DAMAGES AND LIMITATION OF LIABILITY</h1>
-              <p className=" tracking-wide flex text-left font-[400 !important]   mt-2  text-left">
-              IN NO EVENT SHALL VELODATE, INC. BE LIABLE FOR ANY DIRECT, INDIRECT, PUNITIVE, INCIDENTAL, SPECIAL
-               OR CONSEQUENTIAL DAMAGES ARISING OUT OF, RELATING TO OR IN ANY WAY CONNECTED WITH YOUR ACCESS TO,
-                DISPLAY OF OR USE OF THIS APPLICATION OR WITH THE DELAY OR INABILITY TO ACCESS, DISPLAY OR USE THIS
-                 APPLICATION, INCLUDING BUT NOT LIMITED TO YOUR RELIANCE UPON INFORMATION 
-                 APPEARING ON THIS APPLICATION; ANY COMPUTER VIRUSES, INFORMATION, SOFTWARE, LINKED WEBSITES OPERATED
-                  BY THIRD PARTIES, PRODUCTS OR SERVICES OBTAINED THROUGH THIS APPLICATION, WHETHER BASED ON 
-              A THEORY OF NEGLIGENCE, CONTRACT, TORT, STRICT LIABILITY, CONSUMER PROTECTION STATUTES OR OTHERWISE, EVEN IF VELODATE,
-               INC. HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
-              </p>
-               </div>
-
+              We have implemented the following measures to protect and safeguard your personal information:</p>
+              <div className="">
+              <ul className="list-disc">
+                <li className="py-2 ml-5">Limiting the amount of personal information that we collect to the extent that it is strictly necessary;</li>
+                <li className="py-2 ml-5">Using comprehensive physical, technical and administrative security methods;</li>
+                <li className="py-2 ml-5">Using Secure Socket Layer (“SSL”) or other secure connection technologies when receiving or sending personal information <br/> beyond internal networks;</li>
+                <li className="py-2 ml-5">Having comprehensive security policies and procedures.</li>
+              </ul>
+            </div>
 
                 {/* Indemnity discription */}
-        <div className="lg:mt-[3%]  md:px-0 text-base px-3 pt-5   lg:p-0  ">
-              <h1 className=" p-0 md:p-1 text-3xl px-3 lg:p-0 ">Indemnity</h1>
-            <div className="my-3 w-full   ">
-              <p className=" tracking-wide flex text-left font-[500]  my-4">
-                You acknowledge and agree that all data and content that you input and upload into 
-                the Application is done on your own accord, at your own will. You further acknowledge and 
-                agree that by submitting your live location to another user through the application, you assume 
-                complete liability and responsibility for your actions, and that at all times you shall 
-                indemnify, defend and save harmless, as applicable Velodate, Inc. and its directors, officers,
-                 agents, employees and contractors from, any and all damages, losses, claims, including claims and actions 
-                 relating to injury to or death of any person or damage to property, suits, recoveries, costs and expenses, court
-                  costs, attorney fees, and all other obligations by or to third parties, arising out of or resulting from your actions or
-                   inactions in using the Application  </p>
-             </div>
-        </div>
-       
-                 {/* Indemnity discription */}
-        <div className="lg:mt-[3%]  md:px-0 text-base px-3 pt-5   lg:p-0  ">
-              <h1 className=" p-0 md:p-1 text-3xl px-3 lg:p-0 ">Intellectual Property and DMCA Notice and Procedure for Intellectual Property Infringement Claims</h1>
-            <div className="my-3 w-full   ">
-              <p className=" tracking-wide flex text-left font-[500]  my-4">
-              All contents of this Application are ©2024 Velodate, Inc. or third parties. All rights reserved.
-                 </p>
-               <p className=" tracking-wide flex text-left font-[500]  my-4">
-               Unless specified otherwise, this Application and all content and other materials on this Application including but not 
-               limited to all logos, designs, text, graphics, pictures, information, data (excluding all user information, comments and content),
-                software, sound files and arrangement thereof (collectively, “Content”) are the proprietary property of Velodate, Inc. 
-                and are either registered trademarks, trademarks or otherwise protected intellectual property of Velodate, Inc. or third parties in the United States and/or other countries.   </p>
-               <p className=" tracking-wide flex flex-col md:flex-row text-left font-[500]  my-4">
-               If you are aware of a potential infringement of our intellectual property, please contact us at &nbsp; <span className="text-[#D8A409] underline">  <a href="mailto:support@velodate.com"> support@velodate.com</a></span>
-                 </p>  
-               
-               <p className=" tracking-wide flex text-left font-[500]  my-4">
-               We respect the intellectual property rights of others. It is our policy
-                to respond to any claim that Content posted on the Application infringes on the copyright,
-                 trademark or other intellectual property rights of any person or entity.</p>
+                <div className="lg:mt-[3%]  md:px-0 text-base px-3  pt-5  lg:p-0">
+        <h2 className="text-2xl mt-6">Sale Of Your Information</h2>
+        <p className="tracking-wide flex text-left font-[500] my-4">
+        We do not sell your personal information.
+        </p>
+    </div>
+    <div className="lg:mt-[3%]  md:px-0 text-base px-3  pt-5  lg:p-0">
+        <h2 className="text-2xl mt-6">Information Retention</h2>
+        <p className="tracking-wide flex text-left font-[500] my-4">
+            We retain all of the information that we collect until you delete your account from the Application.
+        </p>
+    </div>
+    <div className="lg:mt-[3%]  md:px-0 text-base px-3  pt-5  lg:p-0">
+        <h2 className="text-2xl mt-6">Information Deletion</h2>
+        <p className="tracking-wide flex text-left font-[500] my-4">
+            We will delete all of the information that we collect immediately upon you deleting your account from the Application.
+        </p>
+    </div>
+    <div className="lg:mt-[3%]  md:px-0 text-base px-3  pt-5  lg:p-0">
+        <h2 className="text-2xl mt-6">User Content</h2>
+        <p className="tracking-wide flex text-left font-[500] my-4">
+        Some features of the Application may include a functionality enabling you to post user content, whether publicly posted or privately transmitted, such as profiles, posts, feedback, experiences, suggestions, notes, messages, photos, live location and videos (“User Content”) that may be made available to us and other users of the Application.
+        </p>
+        <p className="tracking-wide flex text-left font-[500] my-4">
+        You should be aware that any User Content you provide or post in the public forums of the Application may be read, collected, and used by others who access them, and we have no control over them. Please exercise caution before and when you choose to share personal information on such public forums.</p>
+        <p className="tracking-wide flex text-left font-[500] my-4">
+        All User Content privately transmitted between you and other users, including but not limited to chats, photographs, videos, live location sharing shall be done voluntarily and with mutual consent between the users. If you choose to share your live location to another user, you should be aware that we do not automatically capture and store geo locations through the Application, unless such information has been shared and stored by you on your own accord. </p>
+        <p className="tracking-wide flex text-left font-[500] my-4">
+        Velodate, Inc. at its sole discretion, has the right (but not the obligation) to screen, reject, retain, or remove any User Content on the Application that violates our Terms and this Privacy Policy, or is otherwise objectionable.  </p>
+    </div>
+    <div className="lg:mt-[3%]  md:px-0 text-base px-3  pt-5  lg:p-0">
+        <h2 className="text-2xl mt-6">Information Security</h2>
+        <p className="tracking-wide flex text-left font-[500] my-4">
+        You acknowledge and agree that protecting your personal information is a responsibility shared between you and us. In this regard, we ask you to be responsible for keeping your login IDs, passwords, and other authentication information used to access the Application in a secure manner and maintain strict confidentiality. You should not share your account and authentication information with any third parties and should inform us immediately of any prohibited use of your account or authentication information. Velodate, Inc. cannot secure and assumes no liability for personal information that is released by you to other users of the Application. </p>
+    </div>
+    <div className="lg:mt-[3%]  md:px-0 text-base px-3  pt-5  lg:p-0">
+        <h2 className="text-2xl mt-6">Account Closure</h2>
+        <p className="tracking-wide flex text-left font-[500] my-4">
+        If you no longer wish to use the Application or have your information processed by us in order to provide you the service through the Application, you may simply delete your account. All information stored by you will be automatically deleted upon closure of your account. Unless you delete your account and remove yourself from the use of the Application, we will store your information as long as your account is active/open.  </p>
+    </div>
+    <div className="lg:mt-[3%]  md:px-0 text-base px-3  pt-5  lg:p-0">
+        <h2 className="text-2xl mt-6">Lawful Disclosure</h2>
+        <p className="tracking-wide flex text-left font-[500] my-4">
+        We may be required to disclose personal information pursuant to lawful requests made by public authorities, including to meet national security or law enforcement requirements, in compliance or pursuant to a warrant or court order. If such request has been made to us, we will ensure to reasonably notify you of such request. </p>
+    </div>
+    <div className="lg:mt-[3%]  md:px-0 text-base px-3  pt-5  lg:p-0">
+        <h2 className="text-2xl mt-6">Cookies</h2>
+        <p className="tracking-wide flex text-left font-[500] my-4">
+        A cookie is a small piece of data sent from an application and stored on your device by your browser. Cookies are generally used to allow applications to respond to you as an individual, to remember your preferences, to test content, and to analyze your interactions with Applications or with advertisements. This Application does not collect cookies. </p>
+    </div>
+    <div className="lg:mt-[3%]  md:px-0 text-base px-3  pt-5  lg:p-0">
+        <h2 className="text-2xl mt-6">Children's Privacy</h2>
+        <p className="tracking-wide flex text-left font-[500] my-4">
+        This Application is intended for use by a general audience and does not offer services to children. Should a child whom we know to be under 18 send personal information to us, we will use that information only to respond to that child to inform him or her that they cannot use this Application.
 
-                 <p className=" tracking-wide flex text-left font-[500]  my-4">
-                 If you believe in good faith that the Content infringes on your intellectual property rights,
-                  you or your agent may send us a written notice of such infringement titled “Infringement of Intellectual 
-                  Property Rights - DMCA.” Your notice to us must include the following information:</p>
-                  <ol className="list-decimal pl-6 mt-4 font-[500]">
-             <li>An electronic or physical signature of the person authorized to act on behalf of the owner of the intellectual property <br/> right’s interest;</li>
-                <li className="py-2">A description of the work that you claim has been infringed, including the URL (i.e., web page address) of the location where the work exists or a copy of the work;</li>
-                <li className="py-2">Your name, email, address and telephone number; and</li>
-                <li className="py-2">A statement by you that you have a good faith belief that the disputed use is not authorized by the owner of the work, its agent or the law.</li>
-              </ol>
-
-
-              <p className=" tracking-wide flex text-left font-[500]  my-4">
-              You may submit your claim to us by contacting us at:</p>
-
-              <div className="flex flex-col text-left font-medium my-4">
-              <p className="py-1">Velodate, Inc.</p>
-              <p className="py-1">[INSERT NAME OF CONTACT PERSON]</p>
-              <p className="py-1">&nbsp; <span className="text-[#D8A409] underline">  <a href="mailto:support@velodate.com"> support@velodate.com</a></span></p>
-              <p className="py-1">[INSERT PHONE NUMBER]</p>
-              <p className="py-1">8, The Green, STE B,</p>
-              <p className="py-1">Dover,</p>
-              <p className="py-1">DE, 19901</p>
-              <p className="py-1">UNITED STATES</p>
-              </div>
-
-
-
-             </div>
-        </div>
-
-
-             <div className="lg:mt-[3%]  md:px-0 text-base px-3 pt-5   lg:p-0  ">
-              <h1 className=" p-0 md:p-1 text-3xl px-3 lg:p-0 ">Remedies</h1>
-            <div className="my-3 w-full   ">
-              <p className=" tracking-wide flex text-left font-[500]  my-4">
-              You agree that the remedy for breach of these Terms of Service as it relates to your use of the
-               Application shall be none and limited to pursuing a dispute resolution as provided in
-               the “Governing Law, Sever ability, Dispute Resolution, Venue and Class Action Waiver” section below.
-                These remedies intended to be your sole and exclusive remedies for any breach of these Terms of Service
-                 as it relates to your use of the Application.  </p>
-             </div>
-        </div>
-
-
-        <div className="lg:mt-[3%]  md:px-0 text-base px-3 pt-5   lg:p-0  ">
-              <h1 className=" p-0 md:p-1 text-3xl px-3 lg:p-0 ">Governing Law, Severability, Dispute Resolution, Venue and Class Action Waiver</h1>
-            <div className="my-3 w-full   ">
-            <p className=" tracking-wide flex text-left font-[500]  my-4">
-            These Terms shall be governed and construed in accordance with the laws of the state of Delaware, United States, without regard to its conflict of laws provisions.
-             THESE TERMS SHALL NOT BE GOVERNED BY THE UNITED NATIONS CONVENTION ON CONTRACTS FOR THE SALE OF INTERNATIONAL GOODS, THE UNIFORM COMMERCIAL CODE, NOR INCOTERMS.
-                  </p> 
-                
-                <p className=" tracking-wide flex text-left font-[500]  my-4">
-                Our failure to enforce any right or provision of these Terms will not be considered a waiver of that right or provision.
-                 If any provision of these Terms is held to be invalid or unenforceable by a court, the remaining provisions of these Terms 
-                 will remain in effect. These Terms constitute the 
-                entire agreement between you and us regarding our Application, and supersede and replace any prior agreements we might have
-                 had with you regarding the Application.
-                  </p> 
-                
-                <p className=" tracking-wide flex text-left font-[500]  my-4">
-                Any controversy or claim arising out of or relating to these Terms including but not limited to the interpretation or breach 
-                thereof shall be resolved in a court of competent jurisdiction in Delaware.
-                  </p>
-                <p className=" tracking-wide flex text-left font-[500]  my-4">
-                YOU AND VELODATE, INC. AGREE THAT EACH MAY BRING CLAIMS AGAINST THE OTHER ONLY IN YOUR OR ITS INDIVIDUAL CAPACITY AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY CLASS OR REPRESENTATIVE ACTION.
-                  </p>
-             </div>
-        </div>
+</p>
+    </div>
+    <div className="lg:mt-[3%]  md:px-0 text-base px-3  pt-5  lg:p-0">
+        <h2 className="text-2xl mt-6">Analytics Programs</h2>
+        <p className="tracking-wide flex text-left font-[500] my-4">
+        This Application uses Google Analytics to collect information about you and your behaviors. If you would like to opt out of Google Analytics, please visit https://tools.google.com/dlpage/gaoptout/ </p>
+    </div>
+    <div className="lg:mt-[3%]  md:px-0 text-base px-3  pt-5  lg:p-0">
+        <h2 className="text-2xl mt-6">Location Of Data Processing</h2>
+        <p className="tracking-wide flex text-left font-[500] my-4">
+        All data processing activities undertaken by us take place in United States. </p>
+    </div>
+    <div className="lg:mt-[3%] md:px-0 text-base px-3 pt-5 lg:p-0 ">
+    <h1 className="p-0 md:p-1 text-3xl px-3 lg:p-0 ">Your Rights</h1>
+    <ul className="list-disc">
+        <li className="py-2 ml-5">The right to access the personal information that we have collected about you.</li>
+        <li className="py-2 ml-5">The right to say no to the sale of your personal information.</li>
+        <li className="py-2 ml-5">The right to request that we delete all or some of the personal information that we have collected on you.</li>
+        <li className="py-2 ml-5">The right to ask us to transmit your personal information that we have collected on you to another provider (where technically feasible).</li>
+        <li className="py-2 ml-5">The right to request that we amend any of the information that we have collected about you.</li>
+        <li className="py-2 ml-5">The right to withdraw your consent to the processing of your data.</li>
+        <li className="py-2 ml-5">The right to request that we restrict the processing of your data.</li>
+        <li className="py-2 ml-5">The right to lodge a complaint regarding our collection, sharing, and processing of data with competent authorities in the proper jurisdiction.</li>
+    </ul>
+</div>
 
 
+    <div className="lg:mt-[3%]  md:px-0 text-base px-3  pt-5  lg:p-0">
+        <h2 className="text-2xl mt-6">Exercising Your Rights</h2>
+        <p className="tracking-wide flex text-left font-[500] my-4">
+        You may exercise the rights specified above by submitting a consumer request to:
+        </p>
+        <div className="flex flex-col text-left font-medium my-4">
+                  <p className="py-1">Velodate, Inc.</p>
+                  <p className="py-1">Chetan Soni </p>
+                  <p className="py-1">President </p>
+                  <p className="py-1">
+                    &nbsp;{" "}
+                    <span className="text-[#D8A409] underline">
+                      {" "}
+                      <a href="mailto:support@velodate.com">
+                        {" "}
+                        support@velodate.com
+                      </a>
+                    </span>
+                  </p>
+                  <p className="py-1">8, The Green, STE B,</p>
+                  <p className="py-1">Dover,</p>
+                  <p className="py-1">DE, 19901</p>
+                  <p className="py-1">UNITED STATES</p>
+
+                  <p className="py-1">
+                  We will need to verify your identity prior to effectuating your request. To verify your identity, you will need to provide us with the following information with your request:
+                  </p>
+
+                  <ul>
+                    <li>Full Name or Username</li>
+                    <li>Email Address</li>
+                  </ul>
+
+                  <p className="py-1">
+                  Please note that we may be unable to process your request if you do not provide us with the above information. </p>  
+
+                  <p className="py-1">
+                  We will respond to most consumer requests within 30 to 45 days of receipt, depending upon where you reside. However, some requests may take longer. We will notify you in writing if we need more time to respond. We have the ability to deny your request(s) if certain exceptions in the law apply. If we do deny your request, we will provide you with the reasons for such denial.
+                  </p> 
+
+                </div>
 
 
 
+    </div>
+    <div className="lg:mt-[3%]  md:px-0 text-base px-3  pt-5  lg:p-0">
+        <h2 className="text-2xl mt-6">Accountability</h2>
+        <p className="tracking-wide flex text-left font-[500] my-4">
+        The following person is accountable and responsible for our privacy practices and procedures: Velodate Privacy Officer
+        </p>
+        <p className="tracking-wide flex text-left font-[500] my-4">
+        You may lodge a complaint with us by contacting the person accountable and responsible for our privacy practices and procedures at the contact information above.</p>
+    </div>
+    <div className="lg:mt-[3%]  md:px-0 text-base px-3  pt-5  lg:p-0">
+        <h2 className="text-2xl mt-6">Third-Party Websites</h2>
+        <p className="tracking-wide flex text-left font-[500] my-4">
+        This Application may contain hyperlinks to websites operated by parties other than us. We provide such hyperlinks for your reference only. We do not control such websites and are not responsible for their contents or the privacy or other practices of such websites. It is up to you to read and fully understand their Privacy Policies. Our inclusion of hyperlinks to such websites does not imply any endorsement of the material on such websites or any association with their operators. </p>
+    </div>
+    <div className="lg:mt-[3%]  md:px-0 text-base px-3  pt-5  lg:p-0">
+        <h2 className="text-2xl mt-6">Do Not Track</h2>
+        <p className="tracking-wide flex text-left font-[500] my-4">
+        Do Not Track is a preference you can set on your web browser to inform websites that you do not want to be tracked. We support Do Not Track ("DNT"). You can either enable or disable DNT by visiting the Preferences or Settings page of your browser. </p>
+    </div>
+    <div className="lg:mt-[3%]  md:px-0 text-base px-3  pt-5  lg:p-0">
+        <h2 className="text-2xl mt-6">VPN Usage</h2>
+        <p className="tracking-wide flex text-left font-[500] my-4">
+        We do not allow accessing the Application through Virtual Private Networks (“VPN”). If you attempt to login to the Application using a VPN, we will automatically block your access from attempting to login to the Application.
+        </p>
+    </div>
+    <div className="lg:mt-[3%]  md:px-0 text-base px-3  pt-5  lg:p-0">
+        <h2 className="text-2xl mt-6">Changes to Privacy Policy</h2>
+        <p className="tracking-wide flex text-left font-[500] my-4">
+        We reserve the right to amend this Privacy Policy at any time. We will notify you of any changes to this Privacy Policy by posting the updated Privacy Policy to this website or application.
+        </p>
+    </div>
 
-        <div className="lg:mt-[3%]  md:px-0 text-base px-3 pt-5   lg:p-0  ">
-              <h1 className=" p-0 md:p-1 text-3xl px-3 lg:p-0 ">Changes to Terms of Service </h1>
-            <div className="my-3 w-full   ">
-              <p className=" tracking-wide flex text-left font-[500]  my-4">
-              We reserve the right to make changes to these Terms of Service at any time. We will not provide you with 
-              any notice when we make changes to this Terms of Service. </p>
-            </div>
-        </div>
 
-
-        <div className="lg:mt-[3%]  md:px-0 text-base px-3 pt-5   lg:p-0  ">
+    <div className="lg:mt-[3%]  md:px-0 text-base px-3 pt-5   lg:p-0  ">
               <h1 className=" p-0 md:p-1 text-3xl px-3 lg:p-0 ">Questions </h1>
             <div className="my-3 w-full   ">
               <p className=" tracking-wide flex text-left font-[500] mb-10 w-full flex-col md:flex-row g-0  my-4">
               If you have any questions about our Terms of Service, please contact us at &nbsp; <span className="text-[#D8A409] underline">  <a href="mailto:support@velodate.com"> support@velodate.com</a></span>
                </p></div>
         </div>
-
-
-            
-
-
 
 
 
