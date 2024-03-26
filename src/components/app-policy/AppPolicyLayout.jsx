@@ -1,10 +1,13 @@
-import React from 'react'
-import { Outlet } from 'react-router-dom'
+import { Outlet } from "react-router-dom";
 
 const AppPolicyLayout = () => {
   return (
-    <div> <Outlet /> </div>
-  )
-}
+    <>
+      <section className="flex min-h-screen flex-1 bg-black">
+        <Outlet />
+      </section>
+    </>
+  );
+};
 
-export default AppPolicyLayout
+export default AppPolicyLayout;

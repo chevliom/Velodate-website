@@ -1,3 +1,2 @@
-export { default as TermsAdnServicesApp } from "./TermsAdnServices";
-export { default as PrivacyAndPolicyApp } from "./PrivacyAndPolicy";
-    
+export { default as TermsAdnServicesApp } from "./TermsAdnServicesApp";
+export { default as PrivacyAndPolicyApp } from "./PrivacyAndPolicyApp";
