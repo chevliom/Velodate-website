@@ -1,9 +1,9 @@
-const TermsAndServices = () => {
+const PrivacyAndPolicy = () => {
   return (
     <>
       <div className="w-full md:px-24  lg:px-[200px] text-white z-[0]   ">
         
-        <h1 className="   text-[2rem] md:text-[3rem] leading-10 mt-[20%] md:mt-[5%]  font-[700] pb-[5%] pt-[5%]  flex flex-col items-center justify-center w-full ">Terms of Service</h1>
+        <h1 className="   text-[2rem] md:text-[3rem] leading-10 mt-[20%] md:mt-[5%]  font-[700] pb-[5%] pt-[5%]  flex flex-col items-center justify-center w-full ">Privacy Policy</h1>
         <div className=" relative">
         {/* terms discription */}
 
@@ -280,4 +280,4 @@ const TermsAndServices = () => {
   );
 };
 
-export default TermsAndServices;
+export default PrivacyAndPolicy;

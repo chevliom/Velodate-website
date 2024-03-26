@@ -6,9 +6,9 @@ const Home = () => {
   return (
     <>
       <div className="flex flex-col w-full">
-        <div className={`relative w-full hidden lg:block`}>
-          <div className="absolute top-3  flex gap-2 flex-col items-center justify-center w-full">
-            <div className="mt-2 flex gap-2 flex-col items-center">
+        <div className={`relative w-full hidden lg:block liner-gradiant`}>
+          <div className="absolute top-12  flex gap-2 flex-col items-center justify-center w-full z-1">
+            <div className="mt-2 flex gap-2 flex-col items-center z-1">
               <p className="text-[#FFFFFF] font-bold text-5xl">
                 "Beyond the Swipe"
               </p>
@@ -33,7 +33,6 @@ const Home = () => {
               </div>
             </div>
           </div>
-          {/* <div className="liner-gradiant"></div> */}
           <img
             src="/assets/home/bgImage.png "
             alt="girlImg"
